@@ -23,6 +23,7 @@ body {
 .droite {
   height: 100vh;
   flex: 2;
+  font-size: larger;
   background-color: #ffffff;
   color: black;
 }
