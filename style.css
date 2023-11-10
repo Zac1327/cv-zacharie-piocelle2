@@ -1,33 +1,42 @@
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #feeaa1;
+  background-color: #000000;
   font-family: Roboto;
   color: rgb(0, 0, 0);
 }
 
+.ImageCV{
+  position: absolute;
+  top: 0;
+  left: 50;
+  transform: translateX(50%);
+}
+
 .header-first {
-  background-color: #226d68;
-  margin: 0;
-  padding: 0;
+  background-color: #ffffff;
 }
 
 .header-second {
   background-color: #226d68;
-  margin: 0;
-  padding: 0;
 }
 
-/* Suppresion des marges pour le header*/
-h1 img {
-  display: block;
+.centre1 {
+  text-align: center;
+line-height: 4;
+color: white;
+
 }
 
-.header-first h2,
-.header-first h3,
-.header-first p,
-.header-first ul,
-.header-first li {
-  margin: 0;
-  padding: 0;
+.titre1 {
+  text-align: center;
+  line-height: 2;
+}
+
+.titre2{
+  text-align: center;
+  line-height: 2;
+}
+
+.texteprojets{
+  margin-left: 25px;
+  padding-left: 25px;
 }
