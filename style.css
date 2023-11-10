@@ -7,7 +7,7 @@ body {
 
 .gallery {
   display: flex;
-  min-height: 1080px;
+  min-height: 100vh;
 }
 
 .gauche, .droite {
@@ -15,11 +15,13 @@ body {
 }
 
 .gauche {
+  height: 100vh;
   flex: 1;
   background-color: #000000;
 }
 
 .droite {
+  height: 100vh;
   flex: 2;
   background-color: #ffffff;
   color: black;
