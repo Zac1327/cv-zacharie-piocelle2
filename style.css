@@ -1,42 +1,48 @@
 body {
   background-color: #000000;
-  font-family: Roboto;
-  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0;
 }
 
-.ImageCV{
-  position: absolute;
-  top: 0;
-  left: 50;
-  transform: translateX(50%);
+.gallery {
+  display: flex;
+  min-height: 100vh;
 }
 
-.header-first {
+.gauche, .droite {
+  padding: 20px;
+}
+
+.gauche {
+  flex: 1;
+  background-color: #000000;
+}
+
+.droite {
+  flex: 2;
   background-color: #ffffff;
+  color: black;
 }
 
-.header-second {
-  background-color: #226d68;
+.ImageCV {
+  display: block;
+  margin: 0 auto;
 }
 
-.centre1 {
+.titre1, .formation, .langues, .contact, .interet {
   text-align: center;
-line-height: 4;
-color: white;
-
 }
 
-.titre1 {
-  text-align: center;
-  line-height: 2;
+.skills table {
+  width: 100%;
 }
 
-.titre2{
-  text-align: center;
-  line-height: 2;
+.interet ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-.texteprojets{
-  margin-left: 25px;
-  padding-left: 25px;
+.interet li {
+  margin-bottom: 10px;
 }
