@@ -5,47 +5,76 @@ body {
   margin: 0;
 }
 
-.gallery {
-  display: flex;
-  min-height: 100vh;
+.titre-cv {
+  text-align: center;
+  background-color: grey;
+  padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
+.titre-cv h1 {
+  font-size: 2em; 
+  margin: 0;
+}
+
+.gallery {
+  display: flex;
+  height: 100vh; 
+}
 .gauche, .droite {
   padding: 20px;
 }
 
 .gauche {
-  height: 100vh;
   flex: 1;
   background-color: #000000;
 }
 
 .droite {
-  height: 100vh;
   flex: 2;
-  font-size: larger;
   background-color: #ffffff;
   color: black;
 }
 
 .ImageCV {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 20px;
+}
+.contact a {
+  color: inherit; 
+  }
+
+.experiences h2 {
+text-align: center;
+font-size: 200%;
 }
 
-.titre1, .formation, .langues, .contact, .interet {
+.skills h2 {
   text-align: center;
+  font-size: 200%;
 }
 
-.skills table {
-  width: 100%;
+.skillstable {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-collapse: separate;
+  border-spacing: 50px 10px;
 }
 
-.interet ul {
-  list-style-type: none;
-  padding: 0;
+.skillstable td.softskills{
+  font-size: 110%;
+  line-height: 1.5;
+text-align: left;
 }
 
-.interet li {
-  margin-bottom: 10px;
+.skillstable td.hardskills {
+  font-size: 100%;
+  line-height: normal;
+}
+
+
+.skills {
+  position:relative;
 }
